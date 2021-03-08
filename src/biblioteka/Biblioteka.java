@@ -10,6 +10,7 @@ public class Biblioteka implements BibliotekaInterface {
 	
 	private LinkedList<Knjiga> knjige = new LinkedList<>();
 
+	//nepotreban komentar 2
 	@Override
 	public void dodajKnjigu(Knjiga knjiga) {
 		if(knjiga == null)
