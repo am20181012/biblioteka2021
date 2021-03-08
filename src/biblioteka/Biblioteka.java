@@ -6,6 +6,8 @@ import biblioteka.interfejs.BibliotekaInterface;
 
 public class Biblioteka implements BibliotekaInterface {
 	
+	//privatna lista sa svim knjigama
+	
 	private LinkedList<Knjiga> knjige = new LinkedList<>();
 
 	@Override
